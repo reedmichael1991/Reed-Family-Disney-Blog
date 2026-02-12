@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reed Family's Walt Disney World News Blog</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #0067A5; /* Disney blue */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #004080;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            color: #0067A5;
+            border-bottom: 2px solid #0067A5;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .hero {
+            background-image: url('https://cdn1.parksmedia.wdprapps.disney.com/media/dftwh/florida/venues/after-hours-experience-magic-kingdom/MK_After_Hours_Venue_Gallery_4-to_add.jpg'); /* Disney Castle image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        article {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article h3 {
+            margin-top: 0;
+            color: #0067A5;
+        }
+
+        article img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        article .date {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        article a {
+            color: #0067A5;
+            text-decoration: none;
+        }
+
+        article a:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            background-color: #0067A5;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #004080;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 20px;
+            }
+
+            .hero h2 {
+                font-size: 2em;
+            }
+
+            .hero p {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Reed Family's Walt Disney World News Blog</h1>
+        <p>Your Source for the Latest Magical Updates</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Stay Updated on All Things Walt Disney World and Disney Cruise Line</h2>
+            <p>From park news to events and closures—get the scoop here!</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About the Reed Family</h2>
+        <p>Hello! We're the Reed Family, passionate Disney enthusiasts from Granby, Connecticut. With years of visiting Walt Disney World and sailing on Disney Cruises, I created this blog to share the latest news, tips, and magical moments. Follow me on X: <a href="https://x.com/Reedfamilyvacas">@Reedfamilyvacas</a></p>
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Latest News</h2>
+        <div class="blog-grid">
+            <article>
+                <h3>Disney World Landscaping Cleanup After Historic Freeze</h3>
+                <span class="date">February 11, 2026</span>
+                <img src="https://wdwmagic.twic.pics/ElementGalleryItems/resorts/Fullsize/Disneys-Polynesian-Resort_Full_63761.jpg?twic=v1/resize=750" alt="Freeze-damaged landscaping at Disney's Polynesian Resort">
+                <p>Disney horticulture teams are removing dead and freeze-damaged plants across the property, especially at Polynesian Village Resort, following a late January cold snap.<grok-card data-id="c9981c" data-type="citation_card" data-plain-type="render_inline_citation" ></grok-card> More details and photos available.</p>
+                <a href="https://www.wdwmagic.com/resorts/disneys-polynesian-resort/gallery/11feb2026-disney-world-freeze-damage-landscaping-cleanup-underway---february-2026/63759.htm">Read Full Story</a>
+            </article>
+
+            <article>
+                <h3>What's New at Disney Springs - February 2026</h3>
+                <span class="date">February 11, 2026</span>
+                <img src="https://i.ytimg.com/vi/7Ngs-MXEyqc/sddefault.jpg" alt="New merchandise at World of Disney">
+                <p>Check out the latest merchandise, food, and unboxings at Disney Springs this month. Lots of new items in World of Disney, Co-Op, and more.<grok-card data-id="6e37b2" data-type="citation_card" data-plain-type="render_inline_citation" ></grok-card></p>
+                <a href="https://www.youtube.com/watch?v=BVNQl2ov1g4">Watch the Video</a>
+            </article>
+
+            <article>
+                <h3>Disney Princess Half Marathon Weekend</h3>
+                <span class="date">February 26 - March 2, 2026</span>
+                <p>The Disney Princess Half Marathon Weekend is set to take place, with events including races and potential minor disruptions around the resort.<grok-card data-id="784033" data-type="citation_card" data-plain-type="render_inline_citation" ></grok-card> Plan ahead for early morning activities.</p>
+                <a href="https://dvcrentalstore.com/blog/disney-world-february-2026-schedule-events-closures-more">Read More</a>
+            </article>
+
+            <article>
+                <h3>Disney News Roundup - February 2026</h3>
+                <span class="date">February 4, 2026</span>
+                <p>Big changes including Josh D’Amaro as new CEO, new milk options in Galaxy's Edge, and more updates from the parks.<grok-card data-id="985236" data-type="citation_card" data-plain-type="render_inline_citation" ></grok-card></p>
+                <a href="https://www.disneyinyourday.com/disney-news-rumors-and-round-up-february-2026">Full Roundup</a>
+            </article>
+
+            <article>
+                <h3>Multiple Ride Closures Confirmed for February 2026</h3>
+                <span class="date">February 2026</span>
+                <p>Four major rides, including DINOSAUR at Animal Kingdom closing permanently on February 2, and others for refurbishment.<grok-card data-id="8a7679" data-type="citation_card" data-plain-type="render_inline_citation" ></grok-card></p>
+                <a href="https://www.facebook.com/insidethemagic/posts/fans-planning-a-disney-world-for-february-2026-may-want-to-take-a-second-look-at/1350980200390686">See Details</a>
+            </article>
+
+            <!-- Add new articles here by copying the <article> block above and pasting below. Update the content as needed. -->
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Reed Family LLC's Walt Disney World News Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
